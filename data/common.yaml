@@ -1,0 +1,8 @@
+---
+profile_openldap::database: 'dc=homelab,dc=beeckmans.io'
+profile_openldap::rootdn: 'cn=admin,dc=homelab,dc=beeckmans.io'
+profile_openldap::rootpw: 'changeme'
+profile_openldap::client::database: 'dc=homelab,dc=beeckmans.io'
+profile_openldap::client::uri:
+  - ldap://ldap01.management.beeckmans.io
+...
